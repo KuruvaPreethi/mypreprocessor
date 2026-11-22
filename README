@@ -1,0 +1,62 @@
+ C Preprocessor
+
+ Project Overview
+
+The C Preprocessor is a mini-project developed using the C programming language to understand and implement the basic operations performed by a C preprocessor.
+
+The project processes a C source file and generates an intermediate `.i` file by handling preprocessor directives such as header file inclusion, comment removal, and macro substitution.
+
+ Features
+- Comment Removal: Removes single-line (`//`) and multi-line (`/* */`) comments from the source file.
+- Header File Inclusion: Processes #include directives and includes the contents of supported header files.
+- File Inclusion: Reads the specified header file and copies its contents into the output file.
+- Macro Processing: Stores and substitutes defined macros in the source code.
+- Intermediate File Generation:Generates an output file with the `.i` extension.
+
+Technologies Used
+- Programming Language: C
+- Operating System: Ubuntu Linux
+- Compiler: GCC
+- Editor: Linux Terminal / Text Editor
+
+Project Structure
+mypreprocessor/
+│
+├── main.c
+├── comment_remove.c
+├── header_inclusion.c
+├── preprocessor.h
+├── inputfile.c
+├── Makefile
+└── README.md
+
+
+How to Compile and Run
+
+Step 1: Navigate to the project directory
+cd mypreprocessor
+
+Step 2: Compile the project
+make
+
+Step 3: Run the executable
+./mypreprocessor
+
+Step 4: Check the generated output
+
+The processed source code will be generated in an intermediate file with the `.i` extension.
+
+Concepts Learned
+- File handling in C
+- Reading and writing files
+- String manipulation
+- Preprocessor directives
+- Functions and modular programming
+- Header file handling
+- Makefile and compilation
+- Working with Linux commands
+
+Learning Outcome
+Through this project, I gained practical experience in file handling, modular programming, and understanding how a C preprocessor processes source code before compilation.
+
+
